@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/небо.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,6 @@ body {
 a {
     color: white;
 }
-
 
 
 .container {
@@ -76,13 +75,22 @@ a {
 
 .login {
     background-color: white;
+    color: blueviolet;
     padding: 7px 16px;
     border-radius: 40px;
-    color: blueviolet;
 }
 
 .logo {
+
     height: 40px;
+    color: white;
+    transition: all linear 0.2s;
+
+}
+
+.logo:hover {
+    color: #2e5fff;
+
 }
 
 /* ---------------------------------------------------------------------------- */
